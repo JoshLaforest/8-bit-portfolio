@@ -1,5 +1,37 @@
+:root {
+    --pixel: 'PIXEL CRAFT';
+}
+
+@font-face {
+    font-family: 'PIXEL CRAFT';
+    src: url(/PixelCraft.otf);
+}
+
 body {
-    line-height: 2 !important;
+    line-height: 1.7 !important;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+h1,
+h2,
+.card-title {
+    font-family: var(--pixel);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px !important;
+}
+
+.card-title {
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .nes-container {
@@ -69,10 +101,18 @@ body {
     gap: 1rem;
 }
 
-.card-img {
+.card-img,
+.about-img {
     align-self: flex-start;
     padding: .5em;
     border: solid 2px black;
+    background: 
+    repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 
+      50% / 20px 20px
+}
+
+.about-img {
+    align-self: initial;
 }
 
 .message {
