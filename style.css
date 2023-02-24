@@ -81,3 +81,19 @@ body {
 .form-block {
     margin-bottom: 1em;
 }
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+.footer-mid {
+    margin-bottom: 1em;
+}
+
+.copyright {
+    font-size: 14px;
+    display: flex;
+    gap: .5em;
+}
