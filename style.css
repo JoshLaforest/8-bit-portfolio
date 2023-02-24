@@ -1,10 +1,38 @@
 body {
     background-color: #212529;
     color: white;
+    line-height: 2 !important;
 }
 
 .nes-container,
 #services {
     max-width: 1200px;
-    margin: 0 auto !important;
 }
+
+.navbar,
+.hero,
+#projects,
+#about,
+#services,
+#contact {
+    margin: 0 1em 5em 1em !important;
+
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em !important;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.nav-item {
+    color: white;
+}
+
