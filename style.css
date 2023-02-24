@@ -44,8 +44,37 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 4em 1em;
 }
 
 .hero-subhead {
     max-width: 500px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2em .5em;
+    border-bottom: solid 2px white;
+    margin-bottom: 2rem
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.card-img {
+    align-self: flex-start;
+    padding: .5em;
+    border: solid 2px #e6e6e6;
 }
