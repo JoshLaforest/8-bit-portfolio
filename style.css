@@ -36,3 +36,16 @@ body {
     color: white;
 }
 
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-subhead {
+    max-width: 500px;
+}
