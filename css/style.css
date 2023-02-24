@@ -168,3 +168,10 @@ h2 {
   line-height: 1;
   margin-top: 1.5em;
 }
+
+@media screen and (min-width: 500px) {
+    .copyright {
+        flex-direction: row;
+        gap: .5em;
+    }
+}
