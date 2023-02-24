@@ -96,11 +96,12 @@ body {
 }
 
 .footer-mid {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 .copyright {
     font-size: 14px;
     display: flex;
-    gap: .5em;
+    flex-direction: column;
+    line-height: 1;
 }
