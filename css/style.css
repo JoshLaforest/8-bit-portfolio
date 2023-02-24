@@ -5,6 +5,7 @@ body {
 .nes-container {
     max-width: 1200px;
     margin: 0 auto !important;
+    padding: .7em;
 }
 
 .hero,
@@ -76,7 +77,7 @@ body {
 
 .message {
     display: flex;
-    align-items: center;
+    flex-direction: column-reverse;
     margin-bottom: 1.5em;
 }
 
