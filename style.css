@@ -77,3 +77,7 @@ body {
 #services .card {
     gap: 1rem;
 }
+
+.form-block {
+    margin-bottom: 1em;
+}
