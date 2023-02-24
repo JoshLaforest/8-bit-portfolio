@@ -7,7 +7,6 @@ body {
     max-width: 1200px;
 }
 
-.navbar,
 .hero,
 #projects,
 #about,
@@ -20,7 +19,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin-top: 2em !important;
+    margin-bottom: 5em;
 }
 
 .nav-menu {
@@ -39,9 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
     padding: 4em 1em;
 }
 
@@ -61,7 +58,7 @@ body {
     gap: 2rem;
     padding: 2em .5em;
     border-bottom: solid 2px black;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 
 .card-content {
@@ -75,4 +72,8 @@ body {
     align-self: flex-start;
     padding: .5em;
     border: solid 2px black;
+}
+
+#services .card {
+    gap: 1rem;
 }
