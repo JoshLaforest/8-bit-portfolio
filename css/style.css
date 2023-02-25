@@ -90,6 +90,9 @@ h2 {
 
 .logo {
   line-height: 1;
+  font-family: var(--pixel);
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -159,6 +162,7 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5em;
+  gap: .5em;
 }
 
 .footer-mid {
@@ -177,5 +181,12 @@ h2 {
     .copyright {
         flex-direction: row;
         gap: .5em;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .message {
+        flex-direction: row;
+        align-items: center;
     }
 }
