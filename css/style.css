@@ -34,10 +34,6 @@ h2 {
     background-color: #e7dede !important;
 }
 
-.is-primary {
-    background-color: #805C50 !;
-}
-
 .divider {
   height: 3px;
   width: 100%;
@@ -67,11 +63,11 @@ h2 {
 }
 
 .navbar {
-  margin-bottom: 5em !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.4em;
+  margin-bottom: 5em !important;
 }
 
 .nav-menu {
